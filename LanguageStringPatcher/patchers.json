@@ -1,0 +1,12 @@
+﻿[
+  {
+    "FilePath": ".*text_.\\.str",
+    "CreatePatchProgram": "LanguageStringPatcher.exe",
+    "CreatePatchArguments": "-c \"{0}\" \"{1}\" \"{2}",
+    "ApplyPatchProgram": "LanguageStringPatcher.exe",
+    "ApplyPatchArguments": "-a \"{0}\" \"{1}\" \"{2}",
+    "IsPatchMergeSafe": true,
+    "PatchExtension": "textstrlsp",
+    "Dependencies": [ ]
+  }
+]
