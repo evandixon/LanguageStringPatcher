@@ -1,8 +1,5 @@
 ﻿Imports System.Text
-'Yes, I know it's a bad idea to have multiple copies of this class (The other one's in ROMEditor.FileFormats), but this executable is redistributable, so if you know of a better way, please contact me on Github.
-''' <summary>
-''' 
-''' </summary>
+
 Public Class LanguageString
     Implements IDisposable
     Dim _fileReader As IO.FileStream
